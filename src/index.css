@@ -6,16 +6,21 @@
   font-family: "Quicksand";
   color: #333;
 }
+
+body {
+  background-color: #ddc7a0;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #800;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #800;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,10 +31,27 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #800;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #800;
+  border-radius: 8px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #800;
+  margin-bottom: 8px;
 }
